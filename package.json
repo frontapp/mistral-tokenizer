@@ -1,5 +1,5 @@
 {
-  "name": "mistral-tokenizer-ts",
+  "name": "@frontapp/mistral-tokenizer-ts",
   "version": "2.2.0",
   "description": "TS tokenizer for Mistral-based LLMs",
   "keywords": [
@@ -7,13 +7,13 @@
     "llm",
     "tokenizer"
   ],
-  "homepage": "https://github.com/aknorw/mistral-tokenizer",
+  "homepage": "https://github.com/frontapp/mistral-tokenizer",
   "bugs": {
-    "url": "https://github.com/aknorw/mistral-tokenizer/issues"
+    "url": "https://github.com/frontapp/mistral-tokenizer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aknorw/mistral-tokenizer.git"
+    "url": "git+https://github.com/frontapp/mistral-tokenizer.git"
   },
   "license": "MIT",
   "author": "aknorw (https://github.com/aknorw)",
@@ -65,7 +65,10 @@
     "typescript": "^5.3.3"
   },
   "engines": {
-    "node": "^20",
+    "node": ">=20",
     "yarn": "please-use-npm-instead"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
